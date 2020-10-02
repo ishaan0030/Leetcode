@@ -2,24 +2,24 @@
 using namespace std;
 int main()
 {
-    int draw;
+    int drw;
     float acc;
     float bal=0.0;
-    cin>>draw>>acc;
-    if((draw+0.5)>acc)
+    cin>>drw>>acc;
+    if((drw+0.5)>acc)
     {
         cout<<fixed<<setprecision(2)<<acc<<endl;
     }
     
     else
     {
-    if(draw%5!=0)
+    if(drw%5!=0)
     {
       cout<<fixed<<setprecision(2)<<acc<<endl;  
     }
     else
     {
-        bal= acc- draw-0.50;
+        bal= acc- drw-0.50;
         cout<<fixed<<setprecision(2)<<bal<<endl;
     }
     
